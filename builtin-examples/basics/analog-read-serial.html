@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../../styles.css">
+<link rel="icon" href="krivanjaLOGO.jpg" type="image/gif" sizes="16x16">
+<title>ARDUINO</title>
+</head>
+<body>
+
+<header>
+<h1><a href="../../index.html">&#128047;</a></h1>
+</header>
+<hr>
+
+<h1>ANALOG READ SERIAL</h1>
+<hr>
+
+<p>This example demonstrates how to read analog input from a potentiometer.</p>
+<p>The analog input is read and the result is printed in the Serial Monitor. The graphical representation of the result can be found using Serial Plotter (Main Menu> Tools > Serial Plotter).</p>
+<p>When the shaft is turned all the way in one direction, there are 0 volts going to the pin, and the input value is 0. When the shaft is turned all the way in the opposite direction, there are 5 volts going to the pin and the input value is 1023. In between, analogRead() returns a number between 0 and 1023 that is proportional to the amount of voltage being applied to the pin.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l7wo_Iqw7QY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>Hardware Required</h2>
+<ul>
+<li>Arduino UNO</li>
+<li>Breadboard</li>
+<li>Potentiometer</li>
+<li>Jumper wires</li>
+</ul>
+
+<h2>Circuit</h2>
+<p>Connect the center pin of a potentiometer to pin A0, and the outside pins to +5V and ground.</p>
+
+<figure>
+<img class="breadboard" src="https://storage.googleapis.com/arduino-projects/basics/analog-read-serial_bb.svg">
+<figcaption>Breadboard Diagram</figcaption>
+</figure>
+
+<figure>
+<img class="schematic" src="https://storage.googleapis.com/arduino-projects/basics/analog-read-serial_schem.svg">
+<figcaption>Schematic Diagram</figcaption>
+</figure>
+
+<h2>Sketch</h2>
+<embed class="sketch" src="https://storage.googleapis.com/arduino-projects/basics/analog-read-serial.html">
+
+</body>
+</html>
