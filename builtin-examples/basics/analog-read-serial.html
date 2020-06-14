@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../../styles.css">
-<link rel="icon" href="krivanjaLOGO.jpg" type="image/gif" sizes="16x16">
+<link rel="icon" href="../../krivanjaLOGO.jpg" type="image/gif" sizes="16x16">
 <title>ARDUINO</title>
 </head>
 <body>
@@ -18,8 +18,8 @@
 <hr>
 
 <p>This example demonstrates how to read analog input from a potentiometer.</p>
-<p>The analog input is read and the result is printed in the Serial Monitor. The graphical representation of the result can be found using Serial Plotter (Main Menu> Tools > Serial Plotter).</p>
-<p>When the shaft is turned all the way in one direction, there are 0 volts going to the pin, and the input value is 0. When the shaft is turned all the way in the opposite direction, there are 5 volts going to the pin and the input value is 1023. In between, analogRead() returns a number between 0 and 1023 that is proportional to the amount of voltage being applied to the pin.</p>
+<p>The analog input is read and the result is printed in the Serial Monitor. The graphical representation of the result can be found using Serial Plotter (<strong> Menu> Tools > Serial Plotter</strong>).</p>
+<p>When the shaft is turned all the way in one direction, there are 0 volts going to the pin, and the input value is 0. When the shaft is turned all the way in the opposite direction, there are 5 volts going to the pin and the input value is 1023. In between, <code>analogRead()</code> returns a number between 0 and 1023 that is proportional to the amount of voltage being applied to the pin.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l7wo_Iqw7QY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -35,17 +35,17 @@
 <p>Connect the center pin of a potentiometer to pin A0, and the outside pins to +5V and ground.</p>
 
 <figure>
-<img class="breadboard" src="https://storage.googleapis.com/arduino-projects/basics/analog-read-serial_bb.svg">
+<img class="breadboard" src="https://storage.googleapis.com/builtin-examples/basics/analog-read-serial_bb.svg">
 <figcaption>Breadboard Diagram</figcaption>
 </figure>
 
 <figure>
-<img class="schematic" src="https://storage.googleapis.com/arduino-projects/basics/analog-read-serial_schem.svg">
+<img class="schematic" src="https://storage.googleapis.com/builtin-examples/basics/analog-read-serial_schem.svg">
 <figcaption>Schematic Diagram</figcaption>
 </figure>
 
 <h2>Sketch</h2>
-<embed class="sketch" src="https://storage.googleapis.com/arduino-projects/basics/analog-read-serial.html">
+<script src="https://gist.github.com/sumanbargavr/3927c28c774670dda519e01791a00aff.js"></script>
 
 </body>
 </html>

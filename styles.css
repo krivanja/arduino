@@ -10,8 +10,15 @@ padding-top: 30px;
 text-align: justify;
 }
 
+figure {
+text-align: center;
+}
+
 figcaption {
 font-size: 24px;
+padding-top: 20px;
+padding-bottom: 60px;
+text-align: center;
 }
 
 a {
@@ -57,9 +64,15 @@ font-size: 24px;
 .breadboard {
 width: 60%;
 alt: breadboard diagram;
+background-color: white;
 }
 
 .schematic {
 width: 60%;
 alt: Schematic diagram;
+background-color: white;
+}
+
+code {
+background-color: chartreuse;
 }
