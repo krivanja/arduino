@@ -1,0 +1,38 @@
+#Attribution1 {
+display: none;
+}
+
+code {
+background-color: gray;    
+}
+
+figcaption {
+text-align: center;
+padding-top: 25px;
+padding-bottom: 50px;
+}
+
+figure {
+text-align: center;
+}
+
+p {
+text-align: justify;
+}
+
+.breadboard {
+width: 100%;
+max-width: 640px;
+alt: Breadboard Diagram
+}
+
+.schematic {
+width: 100%;
+max-width: 640px;
+alt: Schematic Diagram
+}
+
+.youtube {
+width: 560px;
+height: 315px;
+}
