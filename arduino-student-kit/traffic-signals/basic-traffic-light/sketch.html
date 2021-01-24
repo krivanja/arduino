@@ -1,0 +1,22 @@
+<pre>
+    <font color="#434f54">&#47;&#47; set the pin numbers</font>
+    <font color="#00979c">const</font> <font color="#00979c">int</font> <font color="#000000">greenLEDpin</font> <font color="#434f54">=</font> <font color="#000000">3</font><font color="#000000">;</font>
+    <font color="#00979c">const</font> <font color="#00979c">int</font> <font color="#000000">yellowLEDpin</font> <font color="#434f54">=</font> <font color="#000000">4</font><font color="#000000">;</font>
+    <font color="#00979c">const</font> <font color="#00979c">int</font> <font color="#000000">redLEDpin</font> <font color="#434f54">=</font> <font color="#000000">5</font><font color="#000000">;</font>
+    
+    
+    <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+    <font color="#434f54">&#47;&#47; set the LED pins as outputs</font>
+    <font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">greenLEDpin</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+    <font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">yellowLEDpin</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+    <font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">redLEDpin</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+    <font color="#000000">}</font>
+    
+    <font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+    <font color="#434f54">&#47;&#47; put your main code here, to run repeatedly:</font>
+    <font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">greenLEDpin</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font> <font color="#434f54">&#47;&#47; Turn the green LED (on pin 3) ON</font>
+    <font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">yellowLEDpin</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font> <font color="#434f54">&#47;&#47; Turn the yellow LED (on pin 4) ON</font>
+    <font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">redLEDpin</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font> <font color="#434f54">&#47;&#47; Turn the red LED (on pin 5) ON</font>
+    <font color="#000000">}</font>
+    
+    </pre>
